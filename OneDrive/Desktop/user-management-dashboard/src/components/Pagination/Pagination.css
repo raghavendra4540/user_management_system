@@ -1,0 +1,39 @@
+.pagination-container {
+  width: 90%;
+  margin: 20px auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  flex-wrap: wrap;
+}
+
+.page-size {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.page-size select {
+  padding: 8px;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.buttons button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+.buttons button:disabled {
+  background: gray;
+  cursor: not-allowed;
+}

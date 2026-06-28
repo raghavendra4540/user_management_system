@@ -1,0 +1,28 @@
+.filter-btn-container{
+    width:90%;
+    margin:auto;
+    margin-bottom:15px;
+}
+
+.filter-btn{
+    background:#2563eb;
+    color:purple;
+    border:none;
+    padding:10px 18px;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+.filter-popup{
+    width:90%;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:15px;
+    margin-bottom:20px;
+}
+
+.filter-popup input,
+.filter-popup select{
+    padding:10px;
+}

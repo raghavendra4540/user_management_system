@@ -1,0 +1,44 @@
+.table-container {
+  width: 95%;
+  margin: auto;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background: #2563eb;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background: #f5f5f5;
+}
+
+button {
+  padding: 8px 14px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:first-child {
+  background: green;
+  color: white;
+}
+
+button:last-child {
+  background: red;
+  color: white;
+}
